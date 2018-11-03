@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<title> Example </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">  
+ 	<script type="text/javascript" src="1.js"></script>
+	<link rel="stylesheet" href="vendor/font-awesome.css">
+ 	<link rel="stylesheet" href="1.css">
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="Semantic-UI-CSS-master/semantic.min.css">
+	<script src="Semantic-UI-CSS-master/semantic.min.js"></script>
+
+</head>
+<body >	
+ 	<div class="navbarHeader">
+ 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		  <a class="navbar-brand" href="#">ProductDevelopment</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+		    <ul class="navbar-nav">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">Home</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Features</a>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Pricing
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
+		          <a class="dropdown-item" href="#">Action</a>
+		          <a class="dropdown-item" href="#">Another action</a>
+		          <a class="dropdown-item" href="#">Something else here</a>
+		        </div>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Dropdown link
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+		          <a class="dropdown-item" href="#">Action</a>
+		          <a class="dropdown-item" href="#">Another action</a>
+		          <a class="dropdown-item" href="#">Something else here</a>
+		        </div>
+		      </li>
+		    </ul>
+		  </div>
+		  <div class="navAvatar">
+		  	<img src="#" alt="">
+		  	<span>ten nguoi dung</span>
+		  </div>
+		</nav>
+ 	</div> <!-- end navHeader -->
+
+ 	<div class="content">
+ 		<div class="container-fluid">
+ 			<div class="row">
+ 				<div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 submenuLeft">
+ 					<i class="fa fa-home"></i><a href="1.html">Home</a><br>
+ 					<div class="ui checkbox">
+					  <input type="checkbox">
+					  <label>Create Development Request</label>
+					</div>
+					<div class="ui checkbox">
+					  <input type="checkbox">
+					  <label>My Product Development Request</label>
+					</div>	
+					<div class="ui checkbox">
+					  <input type="checkbox">
+					  <label>Product Levelopment List</label>
+					</div>	
+					<div class="ui checkbox">
+					  <input type="checkbox">
+					  <label>Standard Material & Color</label>
+					</div>
+					<div class="ui checkbox">
+					  <input type="checkbox" name="radio">
+					  <label>Make my profile visible</label>
+					</div>																					
+ 				</div> <!-- end col-sm-3 col-md-3 col-lg-3 col-xl-3 -->
+ 				<div class="col-sm-9 col-md-9 col-lg-9 col-xl-9 mainContent">
+ 					<button class="ui button">Create New Development Request</button>
+ 					<div class="container">
+			            <form class="form-horizontal" role="form">
+			                <span>Product request development</span>
+			                <div class="formProduct">
+			                	<div class="form-group row">
+				                    <label class="col-sm-3 col-md-3 col-lg-3 col-xl-3">CUSTOMER</label>
+				                        <select class="ui dropdown col-sm-9 col-md-9 col-lg-9 col-xl-9">
+										  <option value="">-- Select customer --</option>
+										  <option value="1">Male</option>
+										  <option value="0">Female</option>
+										</select>
+				                </div>
+				                <div class="form-group row exclusmty">
+				                    <label class="col-sm-3 col-md-3 col-lg-3 col-xl-3">EXCLUSMTY</label>
+				                        <div class="col-sm-9 col-md-9 col-lg-9 col-xl-9">
+				                        	<div class="ui checkbox">
+											  <input type="checkbox" name="example">
+											  <label>MARKET</label>
+											</div>
+											<div class="ui checkbox">
+											  <input type="checkbox" name="example">
+											  <label>CUSTOMERS MARKET</label>
+											</div>
+											<div class="ui checkbox">
+											  <input type="checkbox" name="example">
+											  <label>WORLDWIDE</label>
+											</div>
+											<div class="ui checkbox">
+											  <input type="checkbox" name="example">
+											  <label>NO</label>
+											</div>
+				                        </div>
+				                </div>
+				                <div class="form-group row">
+				                    <label class="col-sm-3 col-md-3 col-lg-3 col-xl-3">SEASON</label>
+				                        <select class="ui dropdown col-sm-9 col-md-9 col-lg-9 col-xl-9">
+										  <option value="">--Select Season--</option>
+										  <option value="1">Male</option>
+										  <option value="0">Female</option>
+										</select>
+				                </div>
+				                <div class="form-group row">
+				                    <label class="col-sm-3 col-md-3 col-lg-3 col-xl-3">REASON FOR DEVELOPMENT</label>
+				                        <select class="ui dropdown col-sm-9 col-md-9 col-lg-9 col-xl-9">
+										  <option value="">-- Select Reason --</option>
+										  <option value="1">Male</option>
+										  <option value="0">Female</option>
+										</select>
+				                </div>
+				                <div class="form-group row dateFinish">
+				                    <label class="col-sm-3 col-md-3 col-lg-3 col-xl-3">DEVELOPMENT FINISH DAY</label>
+				                        <input class="col-sm-9 col-md-9 col-lg-9 col-xl-9" type="date"  name="trip"
+						               value=""
+						               min="2018-01-01" max="2018-12-31" />
+				                </div>
+				                <div class="form-group row">
+				                    <label class="col-sm-3 col-md-3 col-lg-3 col-xl-3">MEETING PLACE</label>
+				                        <select class="ui dropdown col-sm-9 col-md-9 col-lg-9 col-xl-9">
+										  <option value="">-- Select Meeting Place --</option>
+										  <option value="1">Male</option>
+										  <option value="0">Female</option>
+										</select>
+				                </div>
+				                <div class="form-group row">
+				                    <label class="col-sm-3 col-md-3 col-lg-3 col-xl-3">DEVELOPMENT LEVEL</label>
+				                        <select class="ui dropdown col-sm-9 col-md-9 col-lg-9 col-xl-9">
+										  <option value="">-- Select Development Level --</option>
+										  <option value="1">Male</option>
+										  <option value="0">Female</option>
+										</select>
+				                </div>
+				                <div class="form-group row">
+				                    <label class="col-sm-3 col-md-3 col-lg-3 col-xl-3">MANUFACTURER</label>
+				                        <select class="ui dropdown col-sm-9 col-md-9 col-lg-9 col-xl-9">
+										  <option value="">-- Select Manufacturer --</option>
+										  <option value="1">Male</option>
+										  <option value="0">Female</option>
+										</select>
+				                </div>
+			                </div> <!-- end formProduct --> 
+			            </form> <!-- /form -->
+			        </div> <!-- ./container -->
+ 				</div> <!-- end col-sm-9 col-md-9 col-lg-9 col-xl-9 -->
+ 			</div>
+ 		</div>
+ 	</div>
+</body>
+</html>
